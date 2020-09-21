@@ -73,3 +73,14 @@
         padding: 5%;
         font-size: 210%;
     }
+
+    /* portfolio content section blocks */
+
+    .portfolio-section {
+        height: 100%;
+        width: 35%;
+        margin: auto;
+        padding: 2%;
+        background-color: #f2f2f2;
+        border-radius: 5%;
+    }
