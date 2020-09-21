@@ -84,3 +84,18 @@
         background-color: #f2f2f2;
         border-radius: 5%;
     }
+
+    /* contact page properties */
+
+    .contact-container {
+        height: 100%;
+        width: 70%;
+        margin: 10% auto auto auto;
+        padding: 2%;
+        background-color: #f2f2f2;
+        border-radius: 5%;
+    }
+
+    .contact-container h1 {
+        margin-bottom: 5%;
+    }

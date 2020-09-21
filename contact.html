@@ -23,47 +23,52 @@
             <div class="navbar-nav">
             <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
             <!-- In the future I'd like this Portfolio link to be a dropdown menu to different pages/content items -->
-            <a class="nav-link" href="#">Portfolio</a>
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+            <a class="nav-link" href="contact.html">Contact</a>
             </div>
         </div>
     </nav>
 
     <main class="container">
-    <!-- aside and about me -->
-      <section class="shadow profile row">
-        <div class="col">
-          <header>
-            <h1>Robert Schmahl</h1>
-            <h2>Graphic Designer + Web Developer</h2>
-          </header>
-          <div class="container">
-            <hr>
-            <div class="row">
-              <div class="col-md">
-                  <figure class="figure">
-                    <img src="https://scontent-lax3-2.xx.fbcdn.net/v/t31.0-8/28699168_10215324477167768_8011618159942872374_o.jpg?_nc_cat=111&_nc_sid=09cbfe&_nc_ohc=9ypO-gPTZEkAX8lFOhb&_nc_ht=scontent-lax3-2.xx&oh=5c8335db4d55f86de53474c6a67ccb34&oe=5F84124D" class="figure-img img-fluid rounded" alt="A profile picture of Robert Schmahl">
-                    <hr>
-                    <figcaption class="figure-caption text-center">Aspiring web developer and accomplished graphic designer. Dog fan.</figcaption>
-                  </figure>
-              </div>
-            </div>
-          </div>
+        <header class="shadow row contact-container">
+            <div class="col">
+                <header>
+                    <h1>Contact Me</h1>
+                </header>
 
-          <!-- Contact info buttons -->
-          <section class="container contact-block">
-            <div class="row contact-icons" alt="Contact information links">
-                <div class="col">
-                    <a href="mailto: robertgschmahl@gmail.com"><img src="https://www.flaticon.com/svg/static/icons/svg/561/561127.svg" class="img-fluid" alt="Email icon"></a>
-                </div>
-                <div class="col">
-                    <a href="https://www.linkedin.com/in/robert-schmahl/"><img src="https://www.flaticon.com/svg/static/icons/svg/1384/1384088.svg" class="img-fluid" alt="LinkedIn icon"></a>
-                </div>
-                <div class="col">
-                    <a href="https://github.com/rschm007"><img src="https://www.flaticon.com/svg/static/icons/svg/2111/2111425.svg" class="img-fluid" alt="GitHub icon"></a>
-                </div>
+                <!-- contact me form -->
+                <form class="form-group">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="firstName">First Name</label>
+                            <input type="name" class="form-control" id="firstName" placeholder="John" required>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="lastName">Last Name</label>
+                            <input type="name" class="form-control" id="lastName" placeholder="Smith" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-lg-12">
+                            <label for="inputEmail">Email address</label>
+                            <input type="email" class="form-control" id="inputEmail" placeholder="johnsmith@gmail.com" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-lg-12">
+                            <label for="contactMessage">Message</label>
+                            <textarea class="form-control rounded-0" id="contactMessage" rows="5"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </div>
+                </form>
+                
             </div>
-          </div>
+        </header>
 
         </section>
       </aside>
