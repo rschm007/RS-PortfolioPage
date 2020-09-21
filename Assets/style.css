@@ -58,6 +58,19 @@
         width: 50%;
         }
 
+    .contact-icons p {
+        display: none;
+        background-color: #1a1919;
+        color: #ffffff;
+        text-align: center;
+        padding: 2%;
+        margin-top: 5%;
+    }
+
+    .contact-icons:hover p {
+        display: block;
+    }
+
 /* portfolio page properties */
     /* portfolio header properties */
 
